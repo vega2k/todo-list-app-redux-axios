@@ -1,3 +1,8 @@
+/*
+  pdf 에서 css 복사후에 alt+shift+f 단축키로 포맷팅 하려면 잘 않된다.
+  https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter
+  CSS Formatter 를 설치한 후에 alt+shift+f 하면 포맷팅 된다.
+*/
 .todo-list-template {
   background: white;
   width: 512px;
