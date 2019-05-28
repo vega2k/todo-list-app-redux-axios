@@ -15,13 +15,13 @@ class TodoItemList extends Component {
   render() {
     const { todos } = this.props;
     const todoList = todos.map(
-      (todo) => (
-        <TodoItem
-            todo={todo}
-            key={todo.id}
-        />
-    )
-    );
+      // (todo) => (
+      //   <TodoItem
+      //       todo={todo}
+      //       key={todo.id}
+      //   />
+      ({ id, text, checked }) => (<TodoItem id={id} text={text} checked={checked} key={id} />)
+    );    
     return (
       <div>
         {todoList}    
